@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Editor</title>
+</head>
+<body>
+    <header>
+        <img src="./image.png" id="image">
+    </header>
+    <main>
+        <div id="select-file-container">
+            <input type="file" accept="img/*" id="input-file">
+            <button id="select-file">Select an image</button>
+        </div>
+        <div id="filter-container" class="invisible">
+            <div class="filter">
+                <p>brightness</p>
+                <input type="range" id="brightness" class="input-filter" value="100" max="500">
+            </div>
+            <div class="filter">
+                <p>contrast</p>
+                <input type="range" id="contrast" class="input-filter" value="100" max="500">
+            </div>
+            <div class="filter">
+                <p>saturate</p>
+                <input type="range" id="saturate" class="input-filter" value="100" max="500">
+            </div>
+            <div class="filter">
+                <p>grayscale</p>
+                <input type="range" id="grayscale" class="input-filter" value="0" max="100">
+            </div>
+            <div class="filter">
+                <p>sepia</p>
+                <input type="range" id="sepia" class="input-filter" value="0" max="100">
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
