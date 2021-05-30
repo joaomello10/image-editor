@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <h1>Image editor</h1>
 
 <img src='img/gif-project.gif'>
@@ -16,7 +16,4 @@
     <li>html</li>
     <li>css</li>
 </ul>
-=======
-# image-editor
-Image editor made with javascript
->>>>>>> dfaad6bc170a8c678f7aba27fd3fad636b702a4a
+
